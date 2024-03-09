@@ -1,0 +1,15 @@
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\bin\Debug\net8.0\ApplicationDevelopmentInC#.exe
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\bin\Debug\net8.0\ApplicationDevelopmentInC#.deps.json
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\bin\Debug\net8.0\ApplicationDevelopmentInC#.runtimeconfig.json
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\bin\Debug\net8.0\ApplicationDevelopmentInC#.dll
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\bin\Debug\net8.0\ApplicationDevelopmentInC#.pdb
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\ApplicationDevelopmentInC#.GeneratedMSBuildEditorConfig.editorconfig
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\ApplicationDevelopmentInC#.AssemblyInfoInputs.cache
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\ApplicationDevelopmentInC#.AssemblyInfo.cs
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\ApplicationDevelopmentInC#.csproj.CoreCompileInputs.cache
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\ApplicationDevelopmentInC#.sourcelink.json
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\ApplicationDevelopmentInC#.dll
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\refint\ApplicationDevelopmentInC#.dll
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\ApplicationDevelopmentInC#.pdb
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\ApplicationDevelopmentInC#.genruntimeconfig.cache
+D:\ВСЕ ПО ПРОГРАМИРОВАНИЮ\С#\ApplicationDevelopmentInC#\ApplicationDevelopmentInC#\obj\Debug\net8.0\ref\ApplicationDevelopmentInC#.dll
