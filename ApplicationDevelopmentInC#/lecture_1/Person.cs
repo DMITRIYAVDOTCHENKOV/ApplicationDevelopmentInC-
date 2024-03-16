@@ -1,10 +1,12 @@
-﻿namespace ApplicationDevelopmentInC_.lecture_1
+﻿using ApplicationDevelopmentInC_.lecture_2;
+
+namespace ApplicationDevelopmentInC_.lecture_1
 
 {
     /// <summary>
     /// Класс человек
     /// </summary>
-   public abstract class  Person
+    public abstract class Person : IParent
     {
         public readonly string Name = string.Empty; // Имя
         public readonly DateTime Birthday; // Дата рождения
@@ -116,6 +118,23 @@
         public virtual void SayHello()
         {
             Console.WriteLine("Привет, я - человек");
+        }
+
+        public int CompareTo(Person? other)
+        {
+            if (other == null)
+                return -1;
+            return this.Birthday.CompareTo((other as Person).Birthday);
+        }
+
+        public bool GetChildren(out Person[] childre)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TakeCare()
+        {
+            throw new NotImplementedException();
         }
     }
 }

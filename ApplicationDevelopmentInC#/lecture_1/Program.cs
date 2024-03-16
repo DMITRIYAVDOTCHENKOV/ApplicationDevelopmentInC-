@@ -1,9 +1,9 @@
-﻿namespace ApplicationDevelopmentInC_.lecture_1
+﻿/*namespace ApplicationDevelopmentInC_.lecture_1
 {
     internal class Program
-    {
-        static void Main(string[] args)
-        {
+    {*/
+/*        static void Main(string[] args)
+        {*/
             /*           Варианты создания классов
                        Person person2 = new();
                        var person3 = new Person();
@@ -40,9 +40,9 @@
                         ae.AdultAge = 10;
                         Console.WriteLine(ae.AdultAge);*/
 
-
+/*
             var woman = new Woman("Aнастасия", DateTime.Parse("01.01.1987"), 178);
-            var man = new Man("Дмитрий", DateTime.Parse("01.01.1989"), 185);
+            var man = new Man("Дмитрий", DateTime.Parse("01.01.1989"), 185);*/
 
 /*            woman.Print();
             woman.PutMakeup();
@@ -59,7 +59,7 @@
                 person.SayHello();
             }
 */
-
+/*
             man.SayHello();
             man.SayHelloBase();
 
@@ -73,5 +73,5 @@
             Console.WriteLine(s);
         }
 
-    }
-}
+    }*/
+/*}*/

@@ -22,6 +22,10 @@ namespace ApplicationDevelopmentInC_.lecture_1
         {
         }
 
+        public Woman(string neme, DateTime dateTime) : this(neme)
+        {
+        }
+
         /// <summary>
         /// Метод нанесения макияжа
         /// </summary>
