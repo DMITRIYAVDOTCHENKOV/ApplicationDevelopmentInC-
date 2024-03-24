@@ -44,13 +44,13 @@ class Program
             return 0;
         }
 
-        static void Main()
+/*        static void Main()
         {
-            int startI = 6;
+            int startI = 1;
             int startJ = 1;
             int exits = HasExit(startI, startJ, labirynth1);
             Console.WriteLine("Количество выходов из лабиринта: " + exits);
-        }
+        }*/
     }
 
 }
