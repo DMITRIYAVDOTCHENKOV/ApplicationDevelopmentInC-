@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ApplicationDevelopmentInC_.seminar_4
 {
-    /*
+    *//*
      * Есть список 
      * отсортировать его в порядке возрастания строк успользуюя лямбу
-     */
+     *//*
     internal class Tack3
     {
         static void Main(string[] args)
@@ -24,9 +24,9 @@ namespace ApplicationDevelopmentInC_.seminar_4
                "Grapes"
            };
 
-            var sordetList = strings.OrderBy(x => x.Length).ToList();
-            sordetList.ForEach(Console.WriteLine);
+            strings.OrderBy(x => x.Length).ToList().ForEach(Console.WriteLine);
             
         }
     }
 }
+*/
