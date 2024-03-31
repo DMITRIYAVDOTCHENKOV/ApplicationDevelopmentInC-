@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 
 class Program
 {
@@ -7,7 +7,7 @@ class Program
     static void Main(string[] args)
     {
 
-        int[] arr = { 1, 4, 6, 3, 9, 2,1,3,4,6,45,2,75,74,232,64,6 };
+        int[] arr = { 1, 4, 6, 3, 9, 2, 1, 3, 4, 6, 45, 2, 75, 74, 232, 64, 6 };
         int target = 5;
 
         HW_seminar_4(arr, target);
@@ -47,3 +47,4 @@ class Program
     }
 
 }
+*/
