@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,32 +29,21 @@ namespace ApplicationDevelopmentInC_.seminar_5
                     continue;
                 }
 
-                if (!int.TryParse(parts[0], out int number1) || !int.TryParse(parts[1], out int number2))
+                if (!double.TryParse(parts[0], out double number1) || !double.TryParse(parts[1], out double number2))
                 {
                     Console.WriteLine("Невозможно преобразовать введенные значения в числа. Попробуйте снова.");
                     continue;
                 }
 
-                int result = 0;
-                if (input.Contains("+"))
-                    result = number1 + number2;
-                else if (input.Contains("-"))
-                    result = number1 - number2;
-                else if (input.Contains("*"))
-                    result = number1 * number2;
-                else if (input.Contains("/"))
-                {
-                    if (number2 == 0)
-                    {
-                        Console.WriteLine("Деление на ноль невозможно.");
-                        continue;
-                    }
-                    result = number1 / number2;
-                }
-
-                calculator.Result = result;
-                Console.WriteLine("Результат: " + result);
+                if (input.Contains('+'))
+                    calculator.Sum(number1, number2);
+                else if (input.Contains('-'))
+                    calculator.Subtract(number1, number2);
+                else if (input.Contains('*'))
+                    calculator.Multiply(number1, number2);
+                else if (input.Contains('/'))
+                    calculator.Divide(number1, number2);
             }
         }
     }
-}
+}*/

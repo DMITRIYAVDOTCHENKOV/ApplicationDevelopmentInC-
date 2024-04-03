@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ApplicationDevelopmentInC_.seminar_5
 {
     internal class Calc : ICalc
     {
         public double Result { get; set; } = 0D;
-        private Stack<double> Lastresul { get; set; } = new Stack<double>();    
+        private Stack<double> LastResult { get; set; } = new Stack<double>();
 
         public event EventHandler<EventArgs> MyEventHandler;
 
@@ -18,48 +14,83 @@ namespace ApplicationDevelopmentInC_.seminar_5
             MyEventHandler?.Invoke(this, EventArgs.Empty);
         }
 
-        public void Divde(int x)
+        public void Divide(double x, double y)
         {
+            if (y == 0)
+            {
+                Console.WriteLine("Деление на ноль невозможно.");
+                return;
+            }
+            Result = x / y;
+            LastResult.Push(Result);
             PrintResult();
-            Result /= x;
-            Lastresul.Push(Result);
-
         }
 
-        public void Multu(int x)
+        public void Divide(int x, double y)
         {
+            if (y == 0)
+            {
+                Console.WriteLine("Деление на ноль невозможно.");
+                return;
+            }
+            Result = x / y;
+            LastResult.Push(Result);
             PrintResult();
-            Result *= x;
-            Lastresul.Push(Result);
-
         }
 
-        public void Sub(int x)
+        public void Multiply(double x, double y)
         {
+            Result = x * y;
+            LastResult.Push(Result);
             PrintResult();
-            Result -= x;
-            Lastresul.Push(Result);
-
         }
 
-        public void Sum(int x)
+        public void Multiply(int x, double y)
         {
+            Result = x * y;
+            LastResult.Push(Result);
             PrintResult();
-            Result += x;
-            Lastresul.Push(Result);
+        }
 
+        public void Subtract(double x, double y)
+        {
+            Result = x - y;
+            LastResult.Push(Result);
+            PrintResult();
+        }
+
+        public void Subtract(int x, double y)
+        {
+            Result = x - y;
+            LastResult.Push(Result);
+            PrintResult();
+        }
+
+        public void Sum(double x, double y)
+        {
+            Result = x + y;
+            LastResult.Push(Result);
+            PrintResult();
+        }
+
+        public void Sum(int x, double y)
+        {
+            Result = x + y;
+            LastResult.Push(Result);
+            PrintResult();
         }
 
         public void CancelLast()
         {
-            if(Lastresul.TryPop(out double res))
+            if (LastResult.TryPop(out double res))
             {
                 Result = res;
                 Console.WriteLine("Последнее действие отменено. Результат равен: ");
                 PrintResult();
-            }else
+            }
+            else
             {
-                Console.WriteLine("Невозможно отменить посл. действие");
+                Console.WriteLine("Невозможно отменить последнее действие.");
             }
         }
     }
