@@ -14,7 +14,6 @@
     <Folder Include="lecture_5\" />
     <Folder Include="lectore_6\" />
     <Folder Include="seminar_6\" />
-    <Folder Include="seminar_7\" />
   </ItemGroup>
 
 </Project>
